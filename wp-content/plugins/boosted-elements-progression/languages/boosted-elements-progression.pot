@@ -1,0 +1,868 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Boosted Elements\n"
+"POT-Creation-Date: 2017-03-28 17:12-0700\n"
+"PO-Revision-Date: 2017-03-28 17:12-0700\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: boosted-elements.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: boosted-elements.php:49
+msgid "Google Maps"
+msgstr ""
+
+#: boosted-elements.php:57
+msgid "Google Maps API Key"
+msgstr ""
+
+#: boosted-elements.php:71
+msgid "Google Maps Custom Styling"
+msgstr ""
+
+#: elements/countdown-element.php:14
+msgid "Countdown - Boosted"
+msgstr ""
+
+#: elements/countdown-element.php:31
+msgid "Countdown Settings"
+msgstr ""
+
+#: elements/countdown-element.php:38
+msgid "Time for Countdown"
+msgstr ""
+
+#: elements/countdown-element.php:41
+msgid "Example Date: 2020-01-22 01:30"
+msgstr ""
+
+#: elements/countdown-element.php:48
+msgid "Display Days"
+msgstr ""
+
+#: elements/countdown-element.php:58
+msgid "Display Hours"
+msgstr ""
+
+#: elements/countdown-element.php:70
+msgid "Display Minutes"
+msgstr ""
+
+#: elements/countdown-element.php:82
+msgid "Display Seconds"
+msgstr ""
+
+#: elements/countdown-element.php:97 elements/countdown-element.php:320
+msgid "Countdown Text"
+msgstr ""
+
+#: elements/countdown-element.php:104
+msgid "Column Display"
+msgstr ""
+
+#: elements/countdown-element.php:108
+msgid "Default"
+msgstr ""
+
+#: elements/countdown-element.php:109
+msgid "Two Columns"
+msgstr ""
+
+#: elements/countdown-element.php:117
+msgid "Text Position"
+msgstr ""
+
+#: elements/countdown-element.php:121
+msgid "Underneath"
+msgstr ""
+
+#: elements/countdown-element.php:122
+msgid "Inline"
+msgstr ""
+
+#: elements/countdown-element.php:130
+msgid "Days Text"
+msgstr ""
+
+#: elements/countdown-element.php:132
+msgid "days"
+msgstr ""
+
+#: elements/countdown-element.php:133 elements/countdown-element.php:143
+#: elements/countdown-element.php:154 elements/countdown-element.php:165
+msgid "Leave blank to hide"
+msgstr ""
+
+#: elements/countdown-element.php:140
+msgid "Hours Text"
+msgstr ""
+
+#: elements/countdown-element.php:142
+msgid "hours"
+msgstr ""
+
+#: elements/countdown-element.php:151
+msgid "Minutes Text"
+msgstr ""
+
+#: elements/countdown-element.php:153
+msgid "mins"
+msgstr ""
+
+#: elements/countdown-element.php:162
+msgid "Seconds Text"
+msgstr ""
+
+#: elements/countdown-element.php:164
+msgid "secs"
+msgstr ""
+
+#: elements/countdown-element.php:176
+msgid "Countdown Main Styles"
+msgstr ""
+
+#: elements/countdown-element.php:187 elements/slider-element.php:252
+#: elements/slider-element.php:1193 elements/slider-element.php:1220
+#: elements/slider-element.php:1361 elements/slider-element.php:1388
+msgid "Background Color"
+msgstr ""
+
+#: elements/countdown-element.php:203
+msgid "Space Between Timer"
+msgstr ""
+
+#: elements/countdown-element.php:224
+msgid "Space Below Timer"
+msgstr ""
+
+#: elements/countdown-element.php:245
+msgid "Padding"
+msgstr ""
+
+#: elements/countdown-element.php:259 elements/image-element.php:222
+msgid "Border"
+msgstr ""
+
+#: elements/countdown-element.php:267 elements/image-element.php:230
+#: elements/slider-element.php:1118 elements/slider-element.php:1288
+msgid "Border Radius"
+msgstr ""
+
+#: elements/countdown-element.php:283
+msgid "Countdown Time"
+msgstr ""
+
+#: elements/countdown-element.php:291
+msgid "Time Color"
+msgstr ""
+
+#: elements/countdown-element.php:328 elements/map-element.php:241
+#: elements/slider-element.php:528 elements/slider-element.php:972
+#: elements/slider-element.php:1024 elements/slider-element.php:1075
+#: elements/slider-element.php:1171 elements/slider-element.php:1209
+#: elements/slider-element.php:1339 elements/slider-element.php:1377
+msgid "Text Color"
+msgstr ""
+
+#: elements/image-element.php:14
+msgid "Image Grid - Boosted"
+msgstr ""
+
+#: elements/image-element.php:31
+msgid "Image Grid Options"
+msgstr ""
+
+#: elements/image-element.php:38
+msgid "Images"
+msgstr ""
+
+#: elements/image-element.php:55
+msgid "Columns"
+msgstr ""
+
+#: elements/image-element.php:62
+msgid "1 Column"
+msgstr ""
+
+#: elements/image-element.php:63
+msgid "2 Column"
+msgstr ""
+
+#: elements/image-element.php:64
+msgid "3 Columns"
+msgstr ""
+
+#: elements/image-element.php:65
+msgid "4 Columns"
+msgstr ""
+
+#: elements/image-element.php:66
+msgid "5 Columns"
+msgstr ""
+
+#: elements/image-element.php:67
+msgid "6 Columns"
+msgstr ""
+
+#: elements/image-element.php:79
+msgid "Margin"
+msgstr ""
+
+#: elements/image-element.php:102
+msgid "Open Images in Lightbox"
+msgstr ""
+
+#: elements/image-element.php:110
+msgid "Image Captions"
+msgstr ""
+
+#: elements/image-element.php:123
+msgid "Caption Styles"
+msgstr ""
+
+#: elements/image-element.php:131
+msgid "Caption Color"
+msgstr ""
+
+#: elements/image-element.php:146
+msgid "Caption Background"
+msgstr ""
+
+#: elements/image-element.php:161
+msgid "Caption Padding"
+msgstr ""
+
+#: elements/image-element.php:183 elements/image-element.php:241
+msgid "Alignment"
+msgstr ""
+
+#: elements/image-element.php:188 elements/image-element.php:246
+#: elements/slider-element.php:417 elements/slider-element.php:453
+#: elements/slider-element.php:854 elements/slider-element.php:882
+msgid "Left"
+msgstr ""
+
+#: elements/image-element.php:192 elements/image-element.php:250
+#: elements/slider-element.php:421 elements/slider-element.php:457
+#: elements/slider-element.php:858 elements/slider-element.php:886
+msgid "Center"
+msgstr ""
+
+#: elements/image-element.php:196 elements/image-element.php:254
+#: elements/slider-element.php:425 elements/slider-element.php:461
+#: elements/slider-element.php:862 elements/slider-element.php:890
+msgid "Right"
+msgstr ""
+
+#: elements/image-element.php:213
+msgid "Image Styles"
+msgstr ""
+
+#: elements/image-element.php:298
+msgid "Grid"
+msgstr ""
+
+#: elements/map-element.php:14
+msgid "Maps - Boosted"
+msgstr ""
+
+#: elements/map-element.php:31
+msgid "Map Pins"
+msgstr ""
+
+#: elements/map-element.php:42
+msgid "1600 Holloway Ave, San Francisco, CA 94132"
+msgstr ""
+
+#. Author of the plugin/theme
+#: elements/map-element.php:43
+msgid "Progression Studios"
+msgstr ""
+
+#: elements/map-element.php:44
+msgid "Add an optional title and description to your map pins"
+msgstr ""
+
+#: elements/map-element.php:50
+msgid "Map Address"
+msgstr ""
+
+#: elements/map-element.php:56
+msgid "Pin Title"
+msgstr ""
+
+#: elements/map-element.php:62
+msgid "Pin Text"
+msgstr ""
+
+#: elements/map-element.php:68
+msgid "Open Pin Automatically?"
+msgstr ""
+
+#: elements/map-element.php:74
+msgid "Custom Pin Icon"
+msgstr ""
+
+#: elements/map-element.php:89
+msgid "Map Options"
+msgstr ""
+
+#: elements/map-element.php:96
+msgid "Map Height"
+msgstr ""
+
+#: elements/map-element.php:118
+msgid "Map Zoom"
+msgstr ""
+
+#: elements/map-element.php:136
+msgid "Open One Pin at a Time?"
+msgstr ""
+
+#: elements/map-element.php:144
+msgid "Street View Controls"
+msgstr ""
+
+#: elements/map-element.php:154
+msgid "Map Type Controls Top Right"
+msgstr ""
+
+#: elements/map-element.php:162
+msgid "Scroll Wheel Zoom"
+msgstr ""
+
+#: elements/map-element.php:170
+msgid "Map Type"
+msgstr ""
+
+#: elements/map-element.php:174
+msgid "Road Map"
+msgstr ""
+
+#: elements/map-element.php:175
+msgid "Satellite"
+msgstr ""
+
+#: elements/map-element.php:176
+msgid "Terrain"
+msgstr ""
+
+#: elements/map-element.php:177
+msgid "Hybrid"
+msgstr ""
+
+#: elements/map-element.php:186
+msgid "Optional Moving Center of Map"
+msgstr ""
+
+#: elements/map-element.php:188
+msgid "Enter Map Address"
+msgstr ""
+
+#: elements/map-element.php:198
+msgid "Pin Title Styles"
+msgstr ""
+
+#: elements/map-element.php:206
+msgid "Title Color"
+msgstr ""
+
+#: elements/map-element.php:233
+msgid "Pin Text Styles"
+msgstr ""
+
+#: elements/slider-element.php:14
+msgid "Slider - Boosted"
+msgstr ""
+
+#: elements/slider-element.php:31
+msgid "Slide Content"
+msgstr ""
+
+#: elements/slider-element.php:39
+msgid "Content"
+msgstr ""
+
+#: elements/slider-element.php:44
+msgid "Title"
+msgstr ""
+
+#: elements/slider-element.php:46
+msgid "Slide Title"
+msgstr ""
+
+#: elements/slider-element.php:54
+msgid "Slide Sub-Title"
+msgstr ""
+
+#: elements/slider-element.php:63
+msgid "SLide Content"
+msgstr ""
+
+#: elements/slider-element.php:83
+msgid "Apply link to"
+msgstr ""
+
+#: elements/slider-element.php:86 elements/slider-element.php:106
+msgid "Button"
+msgstr ""
+
+#: elements/slider-element.php:87
+msgid "Entire Slide"
+msgstr ""
+
+#: elements/slider-element.php:88
+msgid "Open in Lightbox"
+msgstr ""
+
+#: elements/slider-element.php:108
+msgid "Learn More"
+msgstr ""
+
+#: elements/slider-element.php:128
+msgid "Icon Position"
+msgstr ""
+
+#: elements/slider-element.php:132 elements/slider-element.php:211
+msgid "Before"
+msgstr ""
+
+#: elements/slider-element.php:133 elements/slider-element.php:212
+msgid "After"
+msgstr ""
+
+#: elements/slider-element.php:144
+msgid "Icon Spacing"
+msgstr ""
+
+#: elements/slider-element.php:165
+msgid "Additional Button"
+msgstr ""
+
+#: elements/slider-element.php:207
+msgid "Additional Icon Position"
+msgstr ""
+
+#: elements/slider-element.php:223
+msgid "Additional Icon Spacing"
+msgstr ""
+
+#: elements/slider-element.php:247
+msgid "Background"
+msgstr ""
+
+#: elements/slider-element.php:264
+msgid "Background Image"
+msgstr ""
+
+#: elements/slider-element.php:275
+msgid "Background Size"
+msgstr ""
+
+#: elements/slider-element.php:279
+msgid "Cover"
+msgstr ""
+
+#: elements/slider-element.php:280
+msgid "Contain"
+msgstr ""
+
+#: elements/slider-element.php:281
+msgid "Auto"
+msgstr ""
+
+#: elements/slider-element.php:303
+msgid "Image Overlay"
+msgstr ""
+
+#: elements/slider-element.php:323
+msgid "Overlay color"
+msgstr ""
+
+#: elements/slider-element.php:345
+msgid "Video Background"
+msgstr ""
+
+#: elements/slider-element.php:355
+msgid "Video"
+msgstr ""
+
+#: elements/slider-element.php:357
+msgid ".mp4 Video URL"
+msgstr ""
+
+#: elements/slider-element.php:374
+msgid "Youtube"
+msgstr ""
+
+#: elements/slider-element.php:396
+msgid "Custom"
+msgstr ""
+
+#: elements/slider-element.php:402
+msgid "Customize per slide"
+msgstr ""
+
+#: elements/slider-element.php:412
+msgid "Text Align"
+msgstr ""
+
+#: elements/slider-element.php:448 elements/slider-element.php:876
+msgid "Horizontal Position"
+msgstr ""
+
+#: elements/slider-element.php:488 elements/slider-element.php:909
+msgid "Vertical Position"
+msgstr ""
+
+#: elements/slider-element.php:493 elements/slider-element.php:915
+msgid "Top"
+msgstr ""
+
+#: elements/slider-element.php:497 elements/slider-element.php:919
+msgid "Middle"
+msgstr ""
+
+#: elements/slider-element.php:501 elements/slider-element.php:923
+msgid "Bottom"
+msgstr ""
+
+#: elements/slider-element.php:560
+msgid "Slide 1 Title"
+msgstr ""
+
+#: elements/slider-element.php:562
+msgid "Easilly add or remove any text on our slider!"
+msgstr ""
+
+#: elements/slider-element.php:565
+msgid "Slide 2 Title"
+msgstr ""
+
+#: elements/slider-element.php:567
+msgid "All of the fields are optional on your slider!"
+msgstr ""
+
+#: elements/slider-element.php:570
+msgid "Slide 3 Title"
+msgstr ""
+
+#: elements/slider-element.php:572
+msgid "Adjust your image background colors, add a background image and more!"
+msgstr ""
+
+#: elements/slider-element.php:587
+msgid "Slider Options"
+msgstr ""
+
+#: elements/slider-element.php:594
+msgid "Slider Height"
+msgstr ""
+
+#: elements/slider-element.php:620
+msgid "Autoplay"
+msgstr ""
+
+#: elements/slider-element.php:629
+msgid "Autoplay Speed"
+msgstr ""
+
+#: elements/slider-element.php:638
+msgid "Slide Transition"
+msgstr ""
+
+#: elements/slider-element.php:642
+msgid "Fade"
+msgstr ""
+
+#: elements/slider-element.php:643
+msgid "Slide"
+msgstr ""
+
+#: elements/slider-element.php:651
+msgid "Transition Speed"
+msgstr ""
+
+#: elements/slider-element.php:661
+msgid "Pause on Hover"
+msgstr ""
+
+#: elements/slider-element.php:670
+msgid "Slide Arrows"
+msgstr ""
+
+#: elements/slider-element.php:674 elements/slider-element.php:688
+msgid "Always Visible"
+msgstr ""
+
+#: elements/slider-element.php:675 elements/slider-element.php:689
+msgid "Visible on Hover"
+msgstr ""
+
+#: elements/slider-element.php:676 elements/slider-element.php:690
+msgid "Hidden"
+msgstr ""
+
+#: elements/slider-element.php:684
+msgid "Slide Bullets"
+msgstr ""
+
+#: elements/slider-element.php:700
+msgid "Text Animation"
+msgstr ""
+
+#: elements/slider-element.php:705
+msgid "No Animation"
+msgstr ""
+
+#: elements/slider-element.php:706
+msgid "Zoom in"
+msgstr ""
+
+#: elements/slider-element.php:707
+msgid "Zoom Out"
+msgstr ""
+
+#: elements/slider-element.php:708
+msgid "Fade Down"
+msgstr ""
+
+#: elements/slider-element.php:709
+msgid "Fade Up"
+msgstr ""
+
+#: elements/slider-element.php:710
+msgid "Fade Right"
+msgstr ""
+
+#: elements/slider-element.php:711
+msgid "Fade Left"
+msgstr ""
+
+#: elements/slider-element.php:719
+msgid "Animation Delay"
+msgstr ""
+
+#: elements/slider-element.php:723
+msgid "100ms"
+msgstr ""
+
+#: elements/slider-element.php:724
+msgid "200ms"
+msgstr ""
+
+#: elements/slider-element.php:725
+msgid "300ms"
+msgstr ""
+
+#: elements/slider-element.php:726
+msgid "400ms"
+msgstr ""
+
+#: elements/slider-element.php:727
+msgid "500ms"
+msgstr ""
+
+#: elements/slider-element.php:728
+msgid "No delay"
+msgstr ""
+
+#: elements/slider-element.php:737
+msgid "Scroll Down Button"
+msgstr ""
+
+#: elements/slider-element.php:748
+msgid "Scroll Down Spacing"
+msgstr ""
+
+#: elements/slider-element.php:775
+msgid "Scroll Down Offset"
+msgstr ""
+
+#: elements/slider-element.php:802
+msgid "Main Styles"
+msgstr ""
+
+#: elements/slider-element.php:810
+msgid "Content Width"
+msgstr ""
+
+#: elements/slider-element.php:837
+msgid "Content Padding"
+msgstr ""
+
+#: elements/slider-element.php:849
+msgid "Content Align"
+msgstr ""
+
+#: elements/slider-element.php:946
+msgid "Content Title"
+msgstr ""
+
+#: elements/slider-element.php:954 elements/slider-element.php:1006
+#: elements/slider-element.php:1057
+msgid "Margin Bottom"
+msgstr ""
+
+#: elements/slider-element.php:985 elements/slider-element.php:1037
+#: elements/slider-element.php:1088 elements/slider-element.php:1109
+#: elements/slider-element.php:1261
+msgid "Typography"
+msgstr ""
+
+#: elements/slider-element.php:998
+msgid "Content Sub-title"
+msgstr ""
+
+#: elements/slider-element.php:1049
+msgid "Content Main"
+msgstr ""
+
+#: elements/slider-element.php:1100
+msgid "Content Button"
+msgstr ""
+
+#: elements/slider-element.php:1136 elements/slider-element.php:1305
+msgid "Border Width"
+msgstr ""
+
+#: elements/slider-element.php:1153 elements/slider-element.php:1322
+msgid "Button Padding"
+msgstr ""
+
+#: elements/slider-element.php:1166 elements/slider-element.php:1334
+#: elements/slider-element.php:1594
+msgid "Normal"
+msgstr ""
+
+#: elements/slider-element.php:1182 elements/slider-element.php:1231
+#: elements/slider-element.php:1350 elements/slider-element.php:1399
+msgid "Border Color"
+msgstr ""
+
+#: elements/slider-element.php:1204 elements/slider-element.php:1372
+#: elements/slider-element.php:1632
+msgid "Hover"
+msgstr ""
+
+#: elements/slider-element.php:1251
+msgid "Content Additional Button"
+msgstr ""
+
+#: elements/slider-element.php:1270
+msgid "Margin Between Buttons"
+msgstr ""
+
+#: elements/slider-element.php:1421
+msgid "Navigation Styles"
+msgstr ""
+
+#: elements/slider-element.php:1429
+msgid "Arrow Color"
+msgstr ""
+
+#: elements/slider-element.php:1441
+msgid "Arrow Size"
+msgstr ""
+
+#: elements/slider-element.php:1458
+msgid "Arrow Spacing"
+msgstr ""
+
+#: elements/slider-element.php:1476
+msgid "Bullet Selected Color"
+msgstr ""
+
+#: elements/slider-element.php:1489
+msgid "Bullet Color"
+msgstr ""
+
+#: elements/slider-element.php:1503
+msgid "Bullet Size"
+msgstr ""
+
+#: elements/slider-element.php:1520
+msgid "Bullet Position Bottom"
+msgstr ""
+
+#: elements/slider-element.php:1538
+msgid "Bullet Left/Right Padding"
+msgstr ""
+
+#: elements/slider-element.php:1557
+msgid "Scroll Down Border Radius"
+msgstr ""
+
+#: elements/slider-element.php:1576
+msgid "Scroll Down Border Width"
+msgstr ""
+
+#: elements/slider-element.php:1599 elements/slider-element.php:1637
+msgid "Scroll Down Color"
+msgstr ""
+
+#: elements/slider-element.php:1610 elements/slider-element.php:1659
+msgid "Scroll Down Border Color"
+msgstr ""
+
+#: elements/slider-element.php:1621
+msgid "Scroll Down Background"
+msgstr ""
+
+#: elements/slider-element.php:1648
+msgid "Scroll Down Background Color"
+msgstr ""
+
+#: inc/elementor-helper.php:8
+msgid "Boosted Elements Addons"
+msgstr ""
+
+#: plugin-update-checker/Puc/v4/Plugin/UpdateChecker.php:358
+msgid "Check for updates"
+msgstr ""
+
+#: plugin-update-checker/Puc/v4/Plugin/UpdateChecker.php:404
+msgid "This plugin is up to date."
+msgstr ""
+
+#: plugin-update-checker/Puc/v4/Plugin/UpdateChecker.php:406
+msgid "A new version of this plugin is available."
+msgstr ""
+
+#: plugin-update-checker/Puc/v4/Plugin/UpdateChecker.php:408
+#, php-format
+msgid "Unknown update checker status \"%s\""
+msgstr ""
+
+#: plugin-update-checker/Puc/v4/Vcs/PluginUpdateChecker.php:83
+msgid "There is no changelog available."
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Boosted Elements"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://boosted.progressionstudios.com"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Page Builder Add-on for Elementor"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://progressionstudios.com/"
+msgstr ""

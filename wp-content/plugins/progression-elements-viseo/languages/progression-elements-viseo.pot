@@ -1,0 +1,1074 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Progression Theme Elements - Viseo\n"
+"POT-Creation-Date: 2017-05-01 07:23-0700\n"
+"PO-Revision-Date: 2017-05-01 07:22-0700\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: progression-elements.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: elements/category-element.php:14
+msgid "Pro - Category List"
+msgstr ""
+
+#: elements/category-element.php:36
+msgid "Main Settings"
+msgstr ""
+
+#: elements/category-element.php:43 elements/post-element.php:66
+msgid "Columns"
+msgstr ""
+
+#: elements/category-element.php:50 elements/post-element.php:73
+msgid "1 Column"
+msgstr ""
+
+#: elements/category-element.php:51 elements/post-element.php:74
+msgid "2 Column"
+msgstr ""
+
+#: elements/category-element.php:52 elements/post-element.php:75
+msgid "3 Columns"
+msgstr ""
+
+#: elements/category-element.php:53 elements/post-element.php:76
+msgid "4 Columns"
+msgstr ""
+
+#: elements/category-element.php:54 elements/post-element.php:77
+msgid "5 Columns"
+msgstr ""
+
+#: elements/category-element.php:55 elements/post-element.php:78
+msgid "6 Columns"
+msgstr ""
+
+#: elements/category-element.php:68
+msgid "Category Count"
+msgstr ""
+
+#: elements/category-element.php:78
+msgid "Display Post Count"
+msgstr ""
+
+#: elements/category-element.php:89
+msgid "Display Empty Cats"
+msgstr ""
+
+#: elements/category-element.php:90
+msgid "Check to display categories with no posts"
+msgstr ""
+
+#: elements/category-element.php:99
+msgid "Display Child Cats"
+msgstr ""
+
+#: elements/category-element.php:100
+msgid "Check to display child categories"
+msgstr ""
+
+#: elements/category-element.php:111 elements/post-element.php:350
+#: elements/slider-element.php:99
+msgid "Order"
+msgstr ""
+
+#: elements/category-element.php:115 elements/post-element.php:354
+#: elements/slider-element.php:103
+msgid "Ascending"
+msgstr ""
+
+#: elements/category-element.php:116 elements/post-element.php:355
+#: elements/slider-element.php:104
+msgid "Descending"
+msgstr ""
+
+#: elements/category-element.php:125
+msgid "Exclude Post Category by ID"
+msgstr ""
+
+#: elements/category-element.php:126
+msgid ""
+"Enter category id to exclude a specific category. Add-in multiple category "
+"ids seperated by a comma to exclude multiple categories. "
+msgstr ""
+
+#: elements/category-element.php:138 elements/post-element.php:407
+#: elements/slider-element.php:263
+msgid "Main Styles"
+msgstr ""
+
+#: elements/category-element.php:148 elements/post-element.php:724
+msgid "Normal"
+msgstr ""
+
+#: elements/category-element.php:153 elements/category-element.php:180
+#: elements/post-element.php:729 elements/post-element.php:756
+msgid "Text Color"
+msgstr ""
+
+#: elements/category-element.php:164 elements/category-element.php:191
+#: elements/post-element.php:740 elements/post-element.php:767
+msgid "Background Color"
+msgstr ""
+
+#: elements/category-element.php:175 elements/post-element.php:751
+msgid "Hover"
+msgstr ""
+
+#: elements/category-element.php:209
+msgid "Category Padding"
+msgstr ""
+
+#: elements/category-element.php:221 elements/post-element.php:493
+msgid "Category Margin"
+msgstr ""
+
+#: elements/category-element.php:234 elements/post-element.php:507
+#: elements/post-element.php:569 elements/post-element.php:618
+#: elements/post-element.php:654 elements/post-element.php:713
+#: elements/post-element.php:857 elements/slider-element.php:508
+#: elements/slider-element.php:562 elements/slider-element.php:613
+#: elements/slider-element.php:666
+msgid "Typography"
+msgstr ""
+
+#: elements/post-element.php:14
+msgid "Pro - Post List"
+msgstr ""
+
+#: elements/post-element.php:36
+msgid "Post List Settings"
+msgstr ""
+
+#: elements/post-element.php:44 elements/post-element.php:161
+msgid "Post Layout"
+msgstr ""
+
+#: elements/post-element.php:48
+msgid "Default"
+msgstr ""
+
+#: elements/post-element.php:49
+msgid "Overlay"
+msgstr ""
+
+#: elements/post-element.php:57 elements/slider-element.php:42
+msgid "Post Count"
+msgstr ""
+
+#: elements/post-element.php:91
+msgid "Margin"
+msgstr ""
+
+#: elements/post-element.php:118
+msgid "Masonry Layout"
+msgstr ""
+
+#: elements/post-element.php:129
+msgid "Post Pagination"
+msgstr ""
+
+#: elements/post-element.php:133
+msgid "No Pagination"
+msgstr ""
+
+#: elements/post-element.php:134
+msgid "Default Pagination"
+msgstr ""
+
+#: elements/post-element.php:135
+msgid "Load More Posts"
+msgstr ""
+
+#: elements/post-element.php:136
+msgid "Inifinite Scroll"
+msgstr ""
+
+#: elements/post-element.php:144
+msgid "Load More Text"
+msgstr ""
+
+#: elements/post-element.php:169
+msgid "Image Hover Effect"
+msgstr ""
+
+#: elements/post-element.php:173
+msgid "Zoom"
+msgstr ""
+
+#: elements/post-element.php:174
+msgid "Greyscale"
+msgstr ""
+
+#: elements/post-element.php:175
+msgid "Sepia"
+msgstr ""
+
+#: elements/post-element.php:176
+msgid "Saturate"
+msgstr ""
+
+#: elements/post-element.php:177
+msgid "Shine"
+msgstr ""
+
+#: elements/post-element.php:178
+msgid "No Effect"
+msgstr ""
+
+#: elements/post-element.php:186
+msgid "Image Transparency on Hover\t"
+msgstr ""
+
+#: elements/post-element.php:208
+msgid "Post Image Background Color"
+msgstr ""
+
+#: elements/post-element.php:223
+msgid "Category Display"
+msgstr ""
+
+#: elements/post-element.php:233
+msgid "Author Display"
+msgstr ""
+
+#: elements/post-element.php:243
+msgid "Date Display"
+msgstr ""
+
+#: elements/post-element.php:253
+msgid "Comment Display"
+msgstr ""
+
+#: elements/post-element.php:263
+msgid "View Count Display"
+msgstr ""
+
+#: elements/post-element.php:273
+msgid "Video Play Button"
+msgstr ""
+
+#: elements/post-element.php:283
+msgid "Exerpt Display"
+msgstr ""
+
+#: elements/post-element.php:299
+msgid "Post Query"
+msgstr ""
+
+#: elements/post-element.php:307 elements/slider-element.php:52
+msgid "Narrow by Filtering Tags"
+msgstr ""
+
+#: elements/post-element.php:308 elements/slider-element.php:53
+msgid ""
+"Enter filtering tags to display posts with a specific tag. Add-in multiple "
+"filtering tags seperated by a comma to use multiple tags. "
+msgstr ""
+
+#: elements/post-element.php:318 elements/slider-element.php:63
+msgid "Narrow by Post Category"
+msgstr ""
+
+#: elements/post-element.php:319 elements/slider-element.php:64
+msgid ""
+"Enter category slugs to display a specific category. Add-in multiple "
+"category slugs seperated by a comma to use multiple categories. "
+msgstr ""
+
+#: elements/post-element.php:328 elements/slider-element.php:77
+msgid "Order By"
+msgstr ""
+
+#: elements/post-element.php:332 elements/slider-element.php:81
+msgid "Default - Date"
+msgstr ""
+
+#: elements/post-element.php:333 elements/slider-element.php:82
+msgid "Views - All Time"
+msgstr ""
+
+#: elements/post-element.php:334 elements/slider-element.php:83
+msgid "Views - Per Year"
+msgstr ""
+
+#: elements/post-element.php:335 elements/slider-element.php:84
+msgid "Views - Per Month"
+msgstr ""
+
+#: elements/post-element.php:336 elements/slider-element.php:85
+msgid "Views - Per Day"
+msgstr ""
+
+#: elements/post-element.php:337 elements/slider-element.php:86
+msgid "Post Title"
+msgstr ""
+
+#: elements/post-element.php:338 elements/slider-element.php:87
+msgid "Menu Order"
+msgstr ""
+
+#: elements/post-element.php:339 elements/slider-element.php:88
+msgid "Last Modified"
+msgstr ""
+
+#: elements/post-element.php:340 elements/slider-element.php:89
+msgid "Comment Count"
+msgstr ""
+
+#: elements/post-element.php:341 elements/slider-element.php:90
+msgid "Random"
+msgstr ""
+
+#: elements/post-element.php:363 elements/slider-element.php:112
+msgid "Offset Count"
+msgstr ""
+
+#: elements/post-element.php:366 elements/slider-element.php:115
+msgid "Use this to skip over posts (Example: 3 would skip the first 3 posts.)"
+msgstr ""
+
+#: elements/post-element.php:374
+msgid "Filtering Sorting"
+msgstr ""
+
+#: elements/post-element.php:375
+msgid "Sort by Filtering Tags"
+msgstr ""
+
+#: elements/post-element.php:384
+msgid "Category Sorting"
+msgstr ""
+
+#: elements/post-element.php:385
+msgid "Sort by Post Caregories"
+msgstr ""
+
+#: elements/post-element.php:394
+msgid "Sorting Text for All Posts"
+msgstr ""
+
+#: elements/post-element.php:397
+msgid "All"
+msgstr ""
+
+#: elements/post-element.php:416
+msgid "Main Background Color"
+msgstr ""
+
+#: elements/post-element.php:429
+msgid "Main Border Color"
+msgstr ""
+
+#: elements/post-element.php:440 elements/slider-element.php:299
+msgid "Content Padding"
+msgstr ""
+
+#: elements/post-element.php:458 elements/slider-element.php:458
+msgid "Category Styles"
+msgstr ""
+
+#: elements/post-element.php:467 elements/slider-element.php:466
+msgid "Category Color"
+msgstr ""
+
+#: elements/post-element.php:480
+msgid "Category Border"
+msgstr ""
+
+#: elements/post-element.php:520 elements/slider-element.php:522
+msgid "Title Styles"
+msgstr ""
+
+#: elements/post-element.php:529 elements/slider-element.php:532
+msgid "Title Color"
+msgstr ""
+
+#: elements/post-element.php:542
+msgid "Title Hover Color"
+msgstr ""
+
+#: elements/post-element.php:555
+msgid "Title Margin"
+msgstr ""
+
+#: elements/post-element.php:582
+msgid "Author/Date Styles"
+msgstr ""
+
+#: elements/post-element.php:591
+msgid "Author/Date Color"
+msgstr ""
+
+#: elements/post-element.php:605
+msgid "Author/Date Margin"
+msgstr ""
+
+#: elements/post-element.php:631
+msgid "Excerpt Styles"
+msgstr ""
+
+#: elements/post-element.php:640
+msgid "Excerpt Color"
+msgstr ""
+
+#: elements/post-element.php:666
+msgid "Load More Styles"
+msgstr ""
+
+#: elements/post-element.php:683
+msgid "Icon Spacing"
+msgstr ""
+
+#: elements/post-element.php:700 elements/post-element.php:844
+msgid "Padding"
+msgstr ""
+
+#: elements/post-element.php:787
+msgid "Filtering Styles"
+msgstr ""
+
+#: elements/post-element.php:796
+msgid "Container Border"
+msgstr ""
+
+#: elements/post-element.php:808
+msgid "Color"
+msgstr ""
+
+#: elements/post-element.php:819
+msgid "Selected Color"
+msgstr ""
+
+#: elements/post-element.php:831
+msgid "Selected Border"
+msgstr ""
+
+#: elements/post-element.php:1192
+msgid "&lsaquo; Previous"
+msgstr ""
+
+#: elements/post-element.php:1193
+msgid "Next &rsaquo;"
+msgstr ""
+
+#: elements/post-element.php:1263
+msgid "No more posts"
+msgstr ""
+
+#: elements/slider-element.php:14
+msgid "Pro - Post Slider"
+msgstr ""
+
+#: elements/slider-element.php:35
+msgid "Slider Settings"
+msgstr ""
+
+#: elements/slider-element.php:129
+msgid "Slider Options"
+msgstr ""
+
+#: elements/slider-element.php:136
+msgid "Slider Height"
+msgstr ""
+
+#: elements/slider-element.php:162
+msgid "Slide Transition"
+msgstr ""
+
+#: elements/slider-element.php:166
+msgid "Fade"
+msgstr ""
+
+#: elements/slider-element.php:167
+msgid "Slide"
+msgstr ""
+
+#: elements/slider-element.php:175
+msgid "Transition Speed"
+msgstr ""
+
+#: elements/slider-element.php:184
+msgid "Text Animation"
+msgstr ""
+
+#: elements/slider-element.php:188
+msgid "No Animation"
+msgstr ""
+
+#: elements/slider-element.php:189
+msgid "Zoom in"
+msgstr ""
+
+#: elements/slider-element.php:190
+msgid "Zoom Out"
+msgstr ""
+
+#: elements/slider-element.php:191
+msgid "Fade Down"
+msgstr ""
+
+#: elements/slider-element.php:192
+msgid "Fade Up"
+msgstr ""
+
+#: elements/slider-element.php:193
+msgid "Fade Right"
+msgstr ""
+
+#: elements/slider-element.php:194
+msgid "Fade Left"
+msgstr ""
+
+#: elements/slider-element.php:202
+msgid "Autoplay"
+msgstr ""
+
+#: elements/slider-element.php:212
+msgid "Autoplay Speed"
+msgstr ""
+
+#: elements/slider-element.php:222
+msgid "Pause on Hover"
+msgstr ""
+
+#: elements/slider-element.php:231
+msgid "Slide Arrows"
+msgstr ""
+
+#: elements/slider-element.php:235 elements/slider-element.php:249
+msgid "Always Visible"
+msgstr ""
+
+#: elements/slider-element.php:236 elements/slider-element.php:250
+msgid "Visible on Hover"
+msgstr ""
+
+#: elements/slider-element.php:237 elements/slider-element.php:251
+msgid "Hidden"
+msgstr ""
+
+#: elements/slider-element.php:245
+msgid "Slide Bullets"
+msgstr ""
+
+#: elements/slider-element.php:272
+msgid "Content Width"
+msgstr ""
+
+#: elements/slider-element.php:311
+msgid "Align"
+msgstr ""
+
+#: elements/slider-element.php:316
+msgid "Left"
+msgstr ""
+
+#: elements/slider-element.php:320
+msgid "Center"
+msgstr ""
+
+#: elements/slider-element.php:324
+msgid "Right"
+msgstr ""
+
+#: elements/slider-element.php:338
+msgid "Vertical Position"
+msgstr ""
+
+#: elements/slider-element.php:344
+msgid "Top"
+msgstr ""
+
+#: elements/slider-element.php:348
+msgid "Middle"
+msgstr ""
+
+#: elements/slider-element.php:352
+msgid "Bottom"
+msgstr ""
+
+#: elements/slider-element.php:370
+msgid "Display Play Button"
+msgstr ""
+
+#: elements/slider-element.php:380
+msgid "Slider Background Color"
+msgstr ""
+
+#: elements/slider-element.php:393
+msgid "Slider Overlay Color"
+msgstr ""
+
+#: elements/slider-element.php:407
+msgid "Video Styles"
+msgstr ""
+
+#: elements/slider-element.php:416
+msgid "Video Width"
+msgstr ""
+
+#: elements/slider-element.php:443
+msgid "Video Marins"
+msgstr ""
+
+#: elements/slider-element.php:478
+msgid "Category Border Color"
+msgstr ""
+
+#: elements/slider-element.php:490 elements/slider-element.php:544
+#: elements/slider-element.php:595 elements/slider-element.php:648
+msgid "Margin Bottom"
+msgstr ""
+
+#: elements/slider-element.php:573
+msgid "Sub-Title Styles"
+msgstr ""
+
+#: elements/slider-element.php:583
+msgid "Sub-Title Color"
+msgstr ""
+
+#: elements/slider-element.php:626
+msgid "Additional Title Styles"
+msgstr ""
+
+#: elements/slider-element.php:636
+msgid "Additional Title Color"
+msgstr ""
+
+#: importer/parsers.php:42 importer/parsers.php:72 importer/parsers.php:80
+msgid "There was an error when reading this WXR file"
+msgstr ""
+
+#: importer/parsers.php:43
+msgid ""
+"Details are shown above. The importer will now try again with a different "
+"parser..."
+msgstr ""
+
+#: importer/parsers.php:84 importer/parsers.php:89 importer/parsers.php:306
+#: importer/parsers.php:495
+msgid ""
+"This does not appear to be a WXR file, missing/invalid WXR version number"
+msgstr ""
+
+#: importer/radium-importer.php:203
+msgid "Demo already imported"
+msgstr ""
+
+#: importer/radium-importer.php:234
+msgid "Import Again"
+msgstr ""
+
+#: importer/radium-importer.php:238 importer/radium-importer.php:244
+msgid "Import Demo Data"
+msgstr ""
+
+#: importer/radium-importer.php:248
+msgid "Tips"
+msgstr ""
+
+#: importer/radium-importer.php:251
+msgid ""
+"The importer will not delete any pages, posts, or content.  It will only add "
+"content and adjust theme options."
+msgstr ""
+
+#: importer/radium-importer.php:252
+msgid ""
+"If the import times out or does not finish, please run the importer again."
+msgstr ""
+
+#: importer/radium-importer.php:253
+msgid ""
+"Running the importer mulitple times may duplicate your menu items. If you "
+"run the importer again, make sure to delete any navigation menus under "
+"Navigation > Menus.  You will not have delete any pages as those will not "
+"duplicate."
+msgstr ""
+
+#: importer/radium-importer.php:458
+msgid "Error importing settings! Please try again."
+msgstr ""
+
+#: importer/radium-importer.php:475 importer/radium-importer.php:480
+msgid ""
+"Error importing settings! Please check that you uploaded a customizer export "
+"file."
+msgstr ""
+
+#: importer/radium-importer.php:780
+msgid "Widget Import file could not be found. Please try again."
+msgstr ""
+
+#: importer/radium-importer.php:854
+msgid "Sidebar does not exist in theme (using Inactive)"
+msgstr ""
+
+#: importer/radium-importer.php:876
+msgid "Site does not support widget"
+msgstr ""
+
+#: importer/radium-importer.php:899
+msgid "Widget already exists"
+msgstr ""
+
+#: importer/radium-importer.php:948
+msgid "Imported"
+msgstr ""
+
+#: importer/radium-importer.php:951
+msgid "Imported to Inactive"
+msgstr ""
+
+#: importer/radium-importer.php:958
+msgid "No Title"
+msgstr ""
+
+#: importer/wordpress-importer-backup.php:134
+#: importer/wordpress-importer-backup.php:143
+#: importer/wordpress-importer-backup.php:194
+#: importer/wordpress-importer-backup.php:198
+#: importer/wordpress-importer-backup.php:207
+#: importer/wordpress-importer-new.php:132
+#: importer/wordpress-importer-new.php:141
+#: importer/wordpress-importer-new.php:192
+#: importer/wordpress-importer-new.php:196
+#: importer/wordpress-importer-new.php:205 importer/wordpress-importer.php:132
+#: importer/wordpress-importer.php:141 importer/wordpress-importer.php:192
+#: importer/wordpress-importer.php:196 importer/wordpress-importer.php:205
+msgid "Sorry, there has been an error."
+msgstr ""
+
+#: importer/wordpress-importer-backup.php:135
+#: importer/wordpress-importer-new.php:133 importer/wordpress-importer.php:133
+msgid "The file does not exist, please try again."
+msgstr ""
+
+#: importer/wordpress-importer-backup.php:178
+#: importer/wordpress-importer-new.php:176 importer/wordpress-importer.php:176
+msgid "All done."
+msgstr ""
+
+#: importer/wordpress-importer-backup.php:178
+#: importer/wordpress-importer-new.php:176 importer/wordpress-importer.php:176
+msgid "Have fun!"
+msgstr ""
+
+#: importer/wordpress-importer-backup.php:179
+#: importer/wordpress-importer-new.php:177 importer/wordpress-importer.php:177
+msgid "Remember to update the passwords and roles of imported users."
+msgstr ""
+
+#: importer/wordpress-importer-backup.php:199
+#: importer/wordpress-importer-new.php:197 importer/wordpress-importer.php:197
+#, php-format
+msgid ""
+"The export file could not be found at <code>%s</code>. It is likely that "
+"this was caused by a permissions problem."
+msgstr ""
+
+#: importer/wordpress-importer-backup.php:215
+#: importer/wordpress-importer-new.php:213 importer/wordpress-importer.php:213
+#, php-format
+msgid ""
+"This WXR file (version %s) may not be supported by this version of the "
+"importer. Please consider updating."
+msgstr ""
+
+#: importer/wordpress-importer-backup.php:240
+#: importer/wordpress-importer-new.php:238 importer/wordpress-importer.php:238
+#, php-format
+msgid ""
+"Failed to import author %s. Their posts will be attributed to the current "
+"user."
+msgstr ""
+
+#: importer/wordpress-importer-backup.php:266
+#: importer/wordpress-importer-new.php:264 importer/wordpress-importer.php:264
+msgid "Assign Authors"
+msgstr ""
+
+#: importer/wordpress-importer-backup.php:267
+#: importer/wordpress-importer-new.php:265 importer/wordpress-importer.php:265
+msgid ""
+"To make it easier for you to edit and save the imported content, you may "
+"want to reassign the author of the imported item to an existing user of this "
+"site. For example, you may want to import all the entries as <code>admin</"
+"code>s entries."
+msgstr ""
+
+#: importer/wordpress-importer-backup.php:269
+#: importer/wordpress-importer-new.php:267 importer/wordpress-importer.php:267
+#, php-format
+msgid ""
+"If a new user is created by WordPress, a new password will be randomly "
+"generated and the new user&#8217;s role will be set as %s. Manually changing "
+"the new user&#8217;s details will be necessary."
+msgstr ""
+
+#: importer/wordpress-importer-backup.php:279
+#: importer/wordpress-importer-new.php:277 importer/wordpress-importer.php:277
+msgid "Import Attachments"
+msgstr ""
+
+#: importer/wordpress-importer-backup.php:282
+#: importer/wordpress-importer-new.php:280 importer/wordpress-importer.php:280
+msgid "Download and import file attachments"
+msgstr ""
+
+#: importer/wordpress-importer-backup.php:286
+#: importer/wordpress-importer-new.php:284 importer/wordpress-importer.php:284
+msgid "Submit"
+msgstr ""
+
+#: importer/wordpress-importer-backup.php:299
+#: importer/wordpress-importer-new.php:297 importer/wordpress-importer.php:297
+msgid "Import author:"
+msgstr ""
+
+#: importer/wordpress-importer-backup.php:310
+#: importer/wordpress-importer-new.php:308 importer/wordpress-importer.php:308
+msgid "or create new user with login name:"
+msgstr ""
+
+#: importer/wordpress-importer-backup.php:313
+#: importer/wordpress-importer-new.php:311 importer/wordpress-importer.php:311
+msgid "as a new user:"
+msgstr ""
+
+#: importer/wordpress-importer-backup.php:321
+#: importer/wordpress-importer-new.php:319 importer/wordpress-importer.php:319
+msgid "assign posts to an existing user:"
+msgstr ""
+
+#: importer/wordpress-importer-backup.php:323
+#: importer/wordpress-importer-new.php:321 importer/wordpress-importer.php:321
+msgid "or assign posts to an existing user:"
+msgstr ""
+
+#: importer/wordpress-importer-backup.php:324
+#: importer/wordpress-importer-new.php:322 importer/wordpress-importer.php:322
+msgid "- Select -"
+msgstr ""
+
+#: importer/wordpress-importer-backup.php:374
+#: importer/wordpress-importer-new.php:372 importer/wordpress-importer.php:372
+#, php-format
+msgid ""
+"Failed to create new user for %s. Their posts will be attributed to the "
+"current user."
+msgstr ""
+
+#: importer/wordpress-importer-backup.php:423
+#: importer/wordpress-importer-new.php:424 importer/wordpress-importer.php:424
+#, php-format
+msgid "Failed to import category %s"
+msgstr ""
+
+#: importer/wordpress-importer-backup.php:461
+#: importer/wordpress-importer-new.php:467 importer/wordpress-importer.php:467
+#, php-format
+msgid "Failed to import post tag %s"
+msgstr ""
+
+#: importer/wordpress-importer-backup.php:505
+#: importer/wordpress-importer-backup.php:631
+#: importer/wordpress-importer-new.php:516
+#: importer/wordpress-importer-new.php:738
+#, php-format
+msgid "Failed to import %s %s"
+msgstr ""
+
+#: importer/wordpress-importer-backup.php:527
+#: importer/wordpress-importer-new.php:605 importer/wordpress-importer.php:605
+#, php-format
+msgid "Failed to import &#8220;%s&#8221;: Invalid post type %s"
+msgstr ""
+
+#: importer/wordpress-importer-backup.php:548
+#: importer/wordpress-importer-new.php:642 importer/wordpress-importer.php:642
+#, php-format
+msgid "%s &#8220;%s&#8221; already exists."
+msgstr ""
+
+#: importer/wordpress-importer-backup.php:603
+#: importer/wordpress-importer-new.php:704
+#, php-format
+msgid "Failed to import %s &#8220;%s&#8221;"
+msgstr ""
+
+#: importer/wordpress-importer-backup.php:760
+#: importer/wordpress-importer-new.php:869 importer/wordpress-importer.php:862
+msgid "Menu item skipped due to missing menu slug"
+msgstr ""
+
+#: importer/wordpress-importer-backup.php:767
+#: importer/wordpress-importer-new.php:876 importer/wordpress-importer.php:869
+#, php-format
+msgid "Menu item skipped due to invalid menu slug: %s"
+msgstr ""
+
+#: importer/wordpress-importer-backup.php:854
+#: importer/wordpress-importer-new.php:939 importer/wordpress-importer.php:956
+msgid "Fetching attachments is not enabled"
+msgstr ""
+
+#: importer/wordpress-importer-backup.php:867
+#: importer/wordpress-importer-new.php:952 importer/wordpress-importer.php:969
+msgid "Invalid file type"
+msgstr ""
+
+#: importer/wordpress-importer-backup.php:911
+#: importer/wordpress-importer-new.php:996 importer/wordpress-importer.php:1013
+msgid "Remote server did not respond"
+msgstr ""
+
+#: importer/wordpress-importer-backup.php:917
+#: importer/wordpress-importer-new.php:1002
+#: importer/wordpress-importer.php:1019
+#, php-format
+msgid "Remote server returned error response %1$d %2$s"
+msgstr ""
+
+#: importer/wordpress-importer-backup.php:924
+#: importer/wordpress-importer-new.php:1009
+#: importer/wordpress-importer.php:1026
+msgid "Remote file is incorrect size"
+msgstr ""
+
+#: importer/wordpress-importer-backup.php:929
+#: importer/wordpress-importer-new.php:1014
+#: importer/wordpress-importer.php:1031
+msgid "Zero size file downloaded"
+msgstr ""
+
+#: importer/wordpress-importer-backup.php:935
+#: importer/wordpress-importer-new.php:1020
+#: importer/wordpress-importer.php:1037
+#, php-format
+msgid "Remote file is too large, limit is %s"
+msgstr ""
+
+#: importer/wordpress-importer-backup.php:1034
+#: importer/wordpress-importer-new.php:1119
+#: importer/wordpress-importer.php:1136
+msgid "Import WordPress"
+msgstr ""
+
+#: importer/wordpress-importer-backup.php:1041
+#: importer/wordpress-importer-new.php:1126
+#: importer/wordpress-importer.php:1143
+#, php-format
+msgid ""
+"A new version of this importer is available. Please update to version %s to "
+"ensure compatibility with newer export files."
+msgstr ""
+
+#: importer/wordpress-importer-backup.php:1056
+#: importer/wordpress-importer-new.php:1141
+#: importer/wordpress-importer.php:1158
+msgid ""
+"Howdy! Upload your WordPress eXtended RSS (WXR) file and we&#8217;ll import "
+"the posts, pages, comments, custom fields, categories, and tags into this "
+"site."
+msgstr ""
+
+#: importer/wordpress-importer-backup.php:1057
+#: importer/wordpress-importer-new.php:1142
+#: importer/wordpress-importer.php:1159
+msgid "Choose a WXR (.xml) file to upload, then click Upload file and import."
+msgstr ""
+
+#: importer/wordpress-importer-new.php:1216
+#: importer/wordpress-importer.php:1233
+msgid ""
+"Import <strong>posts, pages, comments, custom fields, categories, and tags</"
+"strong> from a WordPress export file."
+msgstr ""
+
+#: inc/front-end-form.php:17
+#, php-format
+msgid ""
+"Please <a href=\"%s\">log in</a> or <a href=\"%s\">register for a new "
+"account</a> in order to submit a post."
+msgstr ""
+
+#: inc/front-end-form.php:28
+msgid "Save your post"
+msgstr ""
+
+#: progression-elements.php:44 progression-elements.php:54
+msgid "Filtering Tags"
+msgstr ""
+
+#: progression-elements.php:45
+msgid "Filtering Tag"
+msgstr ""
+
+#: progression-elements.php:46
+msgid "Search Filters"
+msgstr ""
+
+#: progression-elements.php:47
+msgid "All Filters"
+msgstr ""
+
+#: progression-elements.php:48
+msgid "Parent Filter"
+msgstr ""
+
+#: progression-elements.php:49
+msgid "Parent Filter:"
+msgstr ""
+
+#: progression-elements.php:50
+msgid "Edit Filter"
+msgstr ""
+
+#: progression-elements.php:51
+msgid "Update Filter"
+msgstr ""
+
+#: progression-elements.php:52
+msgid "Add New Filter"
+msgstr ""
+
+#: progression-elements.php:53
+msgid "New Filter Name"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Progression Theme Elements - Viseo"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "http://progressionstudios.com"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Theme Elements for Progression Studios Theme"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Progression Studios"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://progressionstudios.com/"
+msgstr ""
