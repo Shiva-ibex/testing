@@ -20,16 +20,26 @@
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define('DB_NAME', 'inspiredbyzuck');
+#define('DB_NAME', 'inspiredbyzuck');
+define('DB_NAME', $_SERVER['RDS_DB_NAME']);
 
 /** MySQL database username */
-define('DB_USER', 'inspiredbyzuck');
+#define('DB_USER', 'inspiredbyzuck');
+define('DB_USER', $_SERVER['RDS_USERNAME']);
 
 /** MySQL database password */
-define('DB_PASSWORD', 'Vhpr23iwSM');
+#define('DB_PASSWORD', 'Vhpr23iwSM');
+define('DB_PASSWORD', $_SERVER['RDS_PASSWORD']);
 
 /** MySQL hostname */
-define('DB_HOST', 'localhost');
+#define('DB_HOST', 'localhost');
+define('DB_HOST', $_SERVER['RDS_HOSTNAME'] . ':' . $_SERVER['RDS_PORT']);
+
+
+/** Secure rds connection*/
+#define('MYSQL_SSL_CA', $_SERVER['HTTPS']);
+#define( 'MYSQL_CLIENT_FLAGS', MYSQLI_CLIENT_SSL );
+
 
 /** Database Charset to use in creating database tables. */
 define('DB_CHARSET', 'utf8');
