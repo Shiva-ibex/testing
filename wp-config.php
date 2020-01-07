@@ -98,6 +98,19 @@ if ( !defined('ABSPATH') )
 /** Sets up WordPress vars and included files. */
 require_once(ABSPATH . 'wp-settings.php');
 
+<?php
+ 
+// we need to include the file below because the activate_plugin() function isn't normally defined in the front-end
+include_once( ABSPATH . 'wp-admin/includes/plugin.php' );
+// activate pre-bundled plugins
+activate_plugin( 'search-replace/search-replace.php' );
+activate_plugin( 'really-simple-ssl/rlrsssl-really-simple-ssl.php' );
+activate_plugin( 'amazon-s3-and-cloudfront/wordpress-ssl.php' );
+ 
+?>
+
+
+
 #<?php
 // get already activated plugins
 #$plugins = get_option('active_plugins');
