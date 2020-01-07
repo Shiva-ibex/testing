@@ -98,19 +98,18 @@ if ( !defined('ABSPATH') )
 /** Sets up WordPress vars and included files. */
 require_once(ABSPATH . 'wp-settings.php');
 
-<?php
+#<?php
 // get already activated plugins
-$plugins = get_option('active_plugins');
-if($plugins){
-    $puginsToActiv = array('Plugin1', 'Plugin2', 'Plugin3');
-    foreach ($puginsTostActiv as $plugin){
-        if (!in_array($plugin, $plugins)) {
-             array_push($plugins,$plugin);
-             update_option('active_plugins',$plugins);
-        }
-    }
-}
- ?>
+#$plugins = get_option('active_plugins');
+#if($plugins){
+ #   $puginsToActiv = array('Plugin1', 'Plugin2', 'Plugin3');
+ #   foreach ($puginsTostActiv as $plugin){
+  #      if (!in_array($plugin, $plugins)) {
+   #          array_push($plugins,$plugin);
+    #   }
+   # }
+#}
+# ?>
 
 # function run_activate_plugin( $plugin ) {
  #   $current = get_option( 'active_plugins' );
