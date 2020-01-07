@@ -37,8 +37,8 @@ define('DB_HOST', $_SERVER['RDS_HOSTNAME'] . ':' . $_SERVER['RDS_PORT']);
 
 
 /** Secure rds connection*/
-define('MYSQL_SSL_CA', $_SERVER['HTTPS']);
-define( 'MYSQL_CLIENT_FLAGS', MYSQLI_CLIENT_SSL );
+#define('MYSQL_SSL_CA', $_SERVER['HTTPS']);
+#define( 'MYSQL_CLIENT_FLAGS', MYSQLI_CLIENT_SSL );
 
 
 /** Database Charset to use in creating database tables. */
@@ -111,7 +111,7 @@ require_once(ABSPATH . 'wp-settings.php');
 
 
 
-#<?php
+# <?php
 // get already activated plugins
 #$plugins = get_option('active_plugins');
 #if($plugins){
