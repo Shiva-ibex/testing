@@ -110,7 +110,7 @@ require_once(ABSPATH . 'wp-settings.php');
       #  }
    # }
 #}
-#?>
+# ?>
 
 function run_activate_plugin( $plugin ) {
     $current = get_option( 'active_plugins' );
