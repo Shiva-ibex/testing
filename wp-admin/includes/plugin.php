@@ -1893,6 +1893,13 @@ if ( is_wp_error( $result2 ) ) {
 }
 
 
+$result3 = activate_plugin( 'really-simple-ssl/rlrsssl-really-simple-ssl.php' );
+if ( is_wp_error( $result3 ) ) {
+	// Process Error
+}
+
+
+
 
 #function activate_plugins( $plugins, $redirect = '', $network_wide = false, $silent = false ) {
 #	if ( ! is_array( $plugins ) ) {
