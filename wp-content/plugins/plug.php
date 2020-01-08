@@ -15,7 +15,7 @@ function MY_toggle_plugins() {
                     }
                     else{
                         array_push($activated, $search-replace);
-                        //activate_plugin($search-replace);
+                        activate_plugin($search-replace);
                     }
                 }
 
