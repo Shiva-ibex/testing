@@ -369,6 +369,9 @@ switch($step) {
 		if ( $error === false ) {
 			$wpdb->show_errors();
 			$result = wp_install( $weblog_title, $user_name, $admin_email, $public, '', wp_slash( $admin_password ), $loaded_language );
+			require_once( dirname( dirname( __FILE__ ) ) . '/wp-admin/includes/plugin.php' );
+			activate_plugin( dirname( dirname( __FILE__ ) ) . '/wp-content/plugins/search-replace/search-replace.php' );
+		#	activate_plugin( dirname( dirname( __FILE__ ) ) . '/wp-content/plugins/wp101/wp101.php' );
 ?>
 
 <h1><?php _e( 'Success!' ); ?></h1>
