@@ -370,7 +370,8 @@ switch($step) {
 			$wpdb->show_errors();
 			$result = wp_install( $weblog_title, $user_name, $admin_email, $public, '', wp_slash( $admin_password ), $loaded_language );
 			extract( $result, EXTR_SKIP );
-			require_once( dirname( dirname( __FILE__ ) ) . '/wp-admin/includes/plugin.php' );
+		#	require_once( dirname( dirname( __FILE__ ) ) . '/wp-admin/includes/plugin.php' );
+			activate_plugin( dirname( dirname( __FILE__ ) ) . '/wp-admin/includes/plugin.php' );
 			activate_plugin( dirname( dirname( __FILE__ ) ) . '/wp-content/plugins/search-replace/search-replace.php' );
 		#	activate_plugin( dirname( dirname( __FILE__ ) ) . '/wp-content/plugins/wp101/wp101.php' );
 ?>
