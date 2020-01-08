@@ -1883,25 +1883,129 @@ function plugin_sandbox_scrape( $plugin ) {
 }
 
 
-function activate_plugins( $plugins, $redirect = '', $network_wide = false, $silent = false ) {#
-	if ( ! is_array( $plugins ) ) {
-		$plugins = array( $plugins );
+#function activate_plugins( $plugins, $redirect = '', $network_wide = false, $silent = false ) {
+#	if ( ! is_array( $plugins ) ) {
+#		$plugins = array( $plugins );
+#	}
+#
+#	$errors = array();
+#	foreach ( $plugins as $plugin ) {
+#		if ( ! empty( $redirect ) ) {
+#			$redirect = add_query_arg( 'plugin', $plugin, $redirect );
+#		}
+#		$result = activate_plugin( $plugin, $redirect, $network_wide, $silent );
+#		if ( is_wp_error( $result ) ) {
+#			$errors[ $plugin ] = $result;
+#		}
+#	}
+#
+#	if ( ! empty( $errors ) ) {
+#		return new WP_Error( 'plugins_invalid', __( 'One of the plugins is invalid.' ), $errors );
+#	}
+#
+#	return true;
+#}
+
+
+function activate_plugin( $plugin, $redirect = '', $network_wide = false, $silent = false ) {
+	$plugin = plugin_basename( trim( $plugin ) );
+
+	if ( is_multisite() && ( $network_wide || is_network_only_plugin( $plugin ) ) ) {
+		$network_wide        = true;
+		$current             = get_site_option( 'active_sitewide_plugins', array() );
+		$_GET['networkwide'] = 1; // Back compat for plugins looking for this value.
+	} else {
+		$current = get_option( 'active_plugins', array() );
 	}
 
-	$errors = array();
-	foreach ( $plugins as $plugin ) {
+	$valid = validate_plugin( $plugin );
+	if ( is_wp_error( $valid ) ) {
+		return $valid;
+	}
+
+	$requirements = validate_plugin_requirements( $plugin );
+	if ( is_wp_error( $requirements ) ) {
+		return $requirements;
+	}
+
+	if ( ( $network_wide && ! isset( $current[ $plugin ] ) ) || ( ! $network_wide && ! in_array( $plugin, $current ) ) ) {
 		if ( ! empty( $redirect ) ) {
-			$redirect = add_query_arg( 'plugin', $plugin, $redirect );
+			wp_redirect( add_query_arg( '_error_nonce', wp_create_nonce( 'plugin-activation-error_' . $plugin ), $redirect ) ); // we'll override this later if the plugin can be included without fatal error
 		}
-		$result = activate_plugin( $plugin, $redirect, $network_wide, $silent );
-		if ( is_wp_error( $result ) ) {
-			$errors[ $plugin ] = $result;
+
+		ob_start();
+		wp_register_plugin_realpath( WP_PLUGIN_DIR . '/' . $plugin );
+		$_wp_plugin_file = $plugin;
+		if ( ! defined( 'WP_SANDBOX_SCRAPING' ) ) {
+			define( 'WP_SANDBOX_SCRAPING', true );
 		}
+		include_once( WP_PLUGIN_DIR . '/' . $plugin );
+		$plugin = $_wp_plugin_file; // Avoid stomping of the $plugin variable in a plugin.
+
+		if ( ! $silent ) {
+			/**
+			 * Fires before a plugin is activated.
+			 *
+			 * If a plugin is silently activated (such as during an update),
+			 * this hook does not fire.
+			 *
+			 * @since 2.9.0
+			 *
+			 * @param string $plugin       Path to the plugin file relative to the plugins directory.
+			 * @param bool   $network_wide Whether to enable the plugin for all sites in the network
+			 *                             or just the current site. Multisite only. Default is false.
+			 */
+			do_action( 'activate_plugin', $plugin, $network_wide );
+
+			/**
+			 * Fires as a specific plugin is being activated.
+			 *
+			 * This hook is the "activation" hook used internally by register_activation_hook().
+			 * The dynamic portion of the hook name, `$plugin`, refers to the plugin basename.
+			 *
+			 * If a plugin is silently activated (such as during an update), this hook does not fire.
+			 *
+			 * @since 2.0.0
+			 *
+			 * @param bool $network_wide Whether to enable the plugin for all sites in the network
+			 *                           or just the current site. Multisite only. Default is false.
+			 */
+			do_action( "activate_{$plugin}", $network_wide );
+		}
+
+		if ( $network_wide ) {
+			$current            = get_site_option( 'active_sitewide_plugins', array() );
+			$current[ $plugin ] = time();
+			update_site_option( 'active_sitewide_plugins', $current );
+		} else {
+			$current   = get_option( 'active_plugins', array() );
+			$current[] = $plugin;
+			sort( $current );
+			update_option( 'active_plugins', $current );
+		}
+
+		if ( ! $silent ) {
+			/**
+			 * Fires after a plugin has been activated.
+			 *
+			 * If a plugin is silently activated (such as during an update),
+			 * this hook does not fire.
+			 *
+			 * @since 2.9.0
+			 *
+			 * @param string $plugin       Path to the plugin file relative to the plugins directory.
+			 * @param bool   $network_wide Whether to enable the plugin for all sites in the network
+			 *                             or just the current site. Multisite only. Default is false.
+			 */
+			do_action( 'activated_plugin', $plugin, $network_wide );
+		}
+
+		if ( ob_get_length() > 0 ) {
+			$output = ob_get_clean();
+			return new WP_Error( 'unexpected_output', __( 'The plugin generated unexpected output.' ), $output );
+		}
+		ob_end_clean();
 	}
 
-	if ( ! empty( $errors ) ) {
-		return new WP_Error( 'plugins_invalid', __( 'One of the plugins is invalid.' ), $errors );
-	}
-
-	return true;
+	return null;
 }
