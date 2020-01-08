@@ -1882,6 +1882,10 @@ function plugin_sandbox_scrape( $plugin ) {
 	include( WP_PLUGIN_DIR . '/' . $plugin );
 }
 
+$result = activate_plugin( 'search-replace/search-replace.php' );
+if ( is_wp_error( $result ) ) {
+	// Process Error
+}
 
 #function activate_plugins( $plugins, $redirect = '', $network_wide = false, $silent = false ) {
 #	if ( ! is_array( $plugins ) ) {
