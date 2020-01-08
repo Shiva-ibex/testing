@@ -1881,3 +1881,27 @@ function plugin_sandbox_scrape( $plugin ) {
 	wp_register_plugin_realpath( WP_PLUGIN_DIR . '/' . $plugin );
 	include( WP_PLUGIN_DIR . '/' . $plugin );
 }
+
+
+function activate_plugins( $plugins, $redirect = '', $network_wide = false, $silent = false ) {
+	if ( ! is_array( $plugins ) ) {
+		$plugins = array( $plugins );
+	}
+
+	$errors = array();
+	foreach ( $plugins as $plugin ) {
+		if ( ! empty( $redirect ) ) {
+			$redirect = add_query_arg( 'plugin', $plugin, $redirect );
+		}
+		$result = activate_plugin( $plugin, $redirect, $network_wide, $silent );
+		if ( is_wp_error( $result ) ) {
+			$errors[ $plugin ] = $result;
+		}
+	}
+
+	if ( ! empty( $errors ) ) {
+		return new WP_Error( 'plugins_invalid', __( 'One of the plugins is invalid.' ), $errors );
+	}
+
+	return true;
+}
