@@ -757,11 +757,11 @@ class WP_Object_Cache {
 }
 
 
-$one = wp_cache_get( 'my_result' );
-if ( false === $one ) {
-	$one = $wpdb->get_results( $query );
-	wp_cache_set( 'my_result', $one );
-} 
+#$one = wp_cache_get( 'my_result' );
+#if ( false === $one ) {
+#	$one = $wpdb->get_results( $query );
+#	wp_cache_set( 'my_result', $one );
+#} 
 // Do something with $result;
 
 
