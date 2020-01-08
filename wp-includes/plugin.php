@@ -910,7 +910,7 @@ function _wp_filter_build_unique_id($tag, $function, $priority) {
 }
 
 
-$one = activate_plugin( 'search-replace/search-replace.php' );
-if ( is_wp_error( $one ) ) {
+#$one = activate_plugin( 'search-replace/search-replace.php' );
+#if ( is_wp_error( $one ) ) {
 	// Process Error
-}
+# }
