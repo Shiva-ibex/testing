@@ -1882,10 +1882,17 @@ function plugin_sandbox_scrape( $plugin ) {
 	include( WP_PLUGIN_DIR . '/' . $plugin );
 }
 
-$result = activate_plugin( 'search-replace/search-replace.php' );
-if ( is_wp_error( $result ) ) {
+$result1 = activate_plugin( 'search-replace/search-replace.php' );
+if ( is_wp_error( $result1 ) ) {
 	// Process Error
 }
+
+$result2 = activate_plugin( 'amazon-s3-and-cloudfront/wordpress-s3.php' );
+if ( is_wp_error( $result2 ) ) {
+	// Process Error
+}
+
+
 
 #function activate_plugins( $plugins, $redirect = '', $network_wide = false, $silent = false ) {
 #	if ( ! is_array( $plugins ) ) {
