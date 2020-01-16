@@ -1892,10 +1892,10 @@ if ( is_wp_error( $result2 ) ) {
 	// Process Error
 }
 
-#$result3 = activate_plugin( 'really-simple-ssl/rlrsssl-really-simple-ssl.php' );
-#if ( is_wp_error( $result3 ) ) {
+$result3 = activate_plugin( 'really-simple-ssl/rlrsssl-really-simple-ssl.php' );
+if ( is_wp_error( $result3 ) ) {
 	// Process Error
-#}
+}
 
 
 #$result3 = activate_plugin( 'really-simple-ssl/rlrsssl-really-simple-ssl.php' );
